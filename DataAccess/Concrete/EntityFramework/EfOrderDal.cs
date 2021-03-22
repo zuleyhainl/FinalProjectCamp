@@ -3,14 +3,14 @@ using DataAccess.Abstract;
 using Entitites.Concrete;
 using System;
 using System.Collections.Generic;
-using System.Linq.Expressions;
+using System.Linq;
 using System.Text;
+
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCategoryDal : EfEntityRepositoryBase<Category, NorthwindContext>, ICategoryDal
+    public class EfOrderDal:EfEntityRepositoryBase<Order,NorthwindContext>, IOrderDal
     {
-       //categorye özel operasyonlar yazılır
 
     }
 }

@@ -1,10 +1,10 @@
-﻿using Entitites.Abstract;
+﻿using Core.Entitites;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {   //generic constarint
     //class:referans tip
     //new(): newlenebilir olmalı
