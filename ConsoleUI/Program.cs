@@ -14,10 +14,12 @@ namespace ConsoleUI
             //CategoryTest();
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetProductDetails())
+            /*foreach (var product in productManager.GetProductDetails())
             {
                 Console.WriteLine(product.ProductName+"/"+product.CategoryName);
-            }
+            }*/
+
+            Console.WriteLine(productManager.Get(1).ProductName);
 
 
 
